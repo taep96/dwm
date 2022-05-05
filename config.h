@@ -18,6 +18,12 @@ static const char *colors[][3]      = {
 	[SchemeSel]  = { col_fg3,   col_bg2,   col_bg2   },
 };
 
+// #define SHCMD(cmd) "/bin/sh", "-c", cmd, NULL
+static const char *const autostart[] = {
+    "sh", "~/.autostart.sh", NULL,
+    NULL
+};
+
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
