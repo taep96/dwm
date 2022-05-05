@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 
 // #define SHCMD(cmd) "/bin/sh", "-c", cmd, NULL
 static const char *const autostart[] = {
-    "sh", "~/.autostart.sh", NULL,
+    "sh", ".autostart.sh", NULL,
     NULL
 };
 
