@@ -36,6 +36,7 @@ sudo make install
 - `betterlockscreen`
 - `empress`
 - `flameshot`
+- `j4-dmenu-desktop`
 - `libxft-bgra`
 - `monospace` and `emoji` fonts
 
