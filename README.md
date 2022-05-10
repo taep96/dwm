@@ -54,7 +54,7 @@ startx by adding the following line to your `.xinitrc`:
 exec dwm
 ```
 
-If you do use a login manager, make sure you have a file called dwm.desktop in
+If you do use a login manager, make sure you have a file called `dwm.desktop` in
 your `/usr/share/xsessions` directory. This is what it should look like:
 
 ```ini
@@ -69,23 +69,23 @@ Type=XSession
 
 ## Patches
 
-- alwayscenter
-- attachaside
-- cool-autostart
-- fixborders
-- focusonnetactive
-- movestack
-- noborderselflickerfix
-- pertag
-- restartsig
-- rotatestack
-- shif-tools
-- statuspadding
+- `alwayscenter`
+- `attachaside`
+- `cool-autostart`
+- `fixborders`
+- `focusonnetactive`
+- `movestack`
+- `noborderselflickerfix`
+- `pertag`
+- `restartsig`
+- `rotatestack`
+- `shif-tools`
+- `statuspadding`
 
 ## Autostart
 
 Before entering the handler loop, dwm will run `~/.autostart.sh`. Below is an
-example of autostart.sh:
+example of `autostart.sh`:
 
 ```sh
 #! /bin/bash
@@ -97,5 +97,5 @@ discord --enable-gpu-rasterization & # Fix server menu scroll lag
 firefox &
 ```
 
-The example autostart.sh above sets wallpaper and runs polkit agent, compositor,
+The example `autostart.sh` above sets wallpaper and runs polkit agent, compositor,
 dwmblocks, Discord, and Firefox.
