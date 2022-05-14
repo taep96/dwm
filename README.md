@@ -40,10 +40,12 @@ sudo make install
 - `libxft-bgra`
 - `monospace` and `emoji` fonts
 
-Also check out my builds of:
+Also check out:
 
-- [dwmblocks](https://github.com/taep96/dwmblocks)
+- [asdf](https://github.com/taep96/asdf)
 - [dmenu](https://github.com/taep96/dmenu)
+- [dwmblocks](https://github.com/taep96/dwmblocks-async)
+- [phinger-cursors](https://github.com/taep96/phinger-cursors-gruvbox)
 
 ## Running dwm
 
